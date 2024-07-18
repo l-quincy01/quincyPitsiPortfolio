@@ -1,3 +1,4 @@
+import TimelineComp from "./about/TimelineComp";
 import PointingEmoji from "./PointingEmoji";
 
 const TitleHeadline = () => {
@@ -13,9 +14,7 @@ const TitleHeadline = () => {
       </h2>
 
       <div className=" text-sm  md:text-xl ">
-        I am a goal-oriented individual passionate about impactful software
-        solutions. My curiosity, work ethic, and problem-solving skills help me
-        excel in tech.
+        <TimelineComp />
       </div>
       <PointingEmoji />
     </div>

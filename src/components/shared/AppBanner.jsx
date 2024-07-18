@@ -25,7 +25,7 @@ const AppBanner = () => {
       />
 
       <img
-        className=" border-2 rounded-full  md:w-1/3  mb-10  hidden md:block"
+        className=" border-2 rounded-full  md:w-1/3 md:h-1/3 mb-10  hidden md:block"
         src={"https://lesego-pitsi.netlify.app/images/lesegoProfile.jpg"}
         alt="Developer"
       />
