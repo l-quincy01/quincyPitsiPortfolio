@@ -5,11 +5,12 @@ import ProjectsGrid from "../components/projects/ProjectsGrid";
 import Button from "../components/reusable/Button";
 import EducationView from "../components/education/EducationView";
 import WritingsView from "../components/writings/WrtingsView";
+import TechStackView from "../components/techStack/TechStackView";
 
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <AppBanner></AppBanner>
+      <AppBanner />
 
       <ProjectsGrid />
 
@@ -26,6 +27,7 @@ const Home = () => {
 
       <EducationView />
       <WritingsView />
+      <TechStackView />
     </div>
   );
 };

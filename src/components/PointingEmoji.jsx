@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 const PointingEmoji = () => {
   return (
-    <div className=" justify-center mt-4  font-light text-sm  lg:text-md xl:text-xl flex flex-row items-center gap-4 ">
+    <div className=" mt-4  font-light text-sm lg:tex  flex flex-row items-center gap-4 ">
       <span className="block md:hidden  xl:block">Get in touch</span>{" "}
       <span className=" mx-1 text-sm md:text-lg lg:text-xl xl:text-3xl  inline-block animate-point">
         👉

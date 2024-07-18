@@ -4,36 +4,12 @@ import { SiLeetcode } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import AppFooterCopyright from "./AppFooterCopyright";
 
-// const socialLinks = [
-// 	{
-// 		id: 1,
-// 		icon:   <FaLinkedin /> ,
-// 		url: '"https://www.linkedin.com/in/lquincy01/',
-// 	},
-// 	{
-// 		id: 2,
-// 		icon: <FiGithub />,
-// 		url: 'https://github.com/realstoman',
-// 	},
-// 	{
-// 		id: 3,
-// 		icon:      <SiLeetcode />,
-// 		url: 'https://leetcode.com/u/lquincy01/,',
-// 	},
-// 	{
-// 		id: 4,
-// 		icon:   <MdEmail />,
-// 		url: 'https://www.linkedin.com/in/realstoman',
-// 	},
-
-// ];
-
 const AppFooter = () => {
   return (
     <div className="container mx-auto">
-      <div className="pt-10 sm:pt-30 pb-4 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
+      <div className="pt-10 sm:pt-30 pb-4 mt-20 border-t-2 border-primary-light dark:border-secondary-dark text-ternary-dark dark:text-ternary-light">
         {/* Footer social links */}
-        <div className="font-general-regular flex flex-row gap-4 justify-center items-center mb-6 sm:mb-28">
+        <div className="font-general-regular flex flex-row gap-4 justify-center items-center mb-6 sm:mb-10">
           <a
             href="https://www.linkedin.com/in/lquincy01/"
             className=" text-sm md:text-lg lg:text-xl xl:text-3xl cursor-pointer"
