@@ -13,7 +13,7 @@ const AppBanner = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-      className=" flex flex-col md:flex-row md:justify-between justify-start  items-start mt-12 md:mt-2"
+      className=" flex flex-col justify-center items-center  md:items-start md:flex-row md:justify-between  mt-12 md:mt-2"
     >
       <div className=" hidden md:block  text-ternary-dark dark:text-ternary-light ">
         <TitleHeadline />

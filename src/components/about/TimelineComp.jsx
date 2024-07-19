@@ -38,11 +38,11 @@ const timelineData = [
 
 const TimelineComp = () => {
   return (
-    <div className="relative">
-      <div className="border-l-2 border-gray-300 absolute h-full left-4"></div>
+    <div className="relative text-left">
+      <div className=" border-l-2 border-gray-300 absolute h-full left-4"></div>
       {timelineData.map((item, index) => (
         <div key={index} className="mb-8 flex items-center">
-          <div className="bg-blue-500 rounded-full h-8 w-8 flex items-center justify-center text-white] font-bold -ml-4">
+          <div className="bg-blue-500 rounded-full h-8 w-8 flex items-center justify-center text-white] font-bold ">
             <GoDotFill />
           </div>
           <div className="ml-8 space-y-2 ">

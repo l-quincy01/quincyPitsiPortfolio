@@ -5,14 +5,12 @@ import { MdEmail } from "react-icons/md";
 
 const PointingEmoji = () => {
   return (
-    <div className=" mt-4  font-light text-sm md:text-lg  flex flex-row items-center gap-4 ">
+    <div className=" mt-4  font-light  flex flex-row items-center gap-4 ">
       <span className="block ">Get in touch</span>{" "}
-      <span className=" mx-1 text-sm md:text-lg lg:text-xl xl:text-3xl  inline-block animate-point">
-        👉
-      </span>
+      <span className=" mx-1     inline-block animate-point">👉</span>
       <a
         href="https://www.linkedin.com/in/lquincy01/"
-        className=" text-sm md:text-lg lg:text-xl xl:text-3xl cursor-pointer"
+        className="    cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -20,7 +18,7 @@ const PointingEmoji = () => {
       </a>
       <a
         href="https://github.com/l-quincy01"
-        className="text-sm md:text-lg lg:text-xl xl:text-3xl cursor-pointer"
+        className="   cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +26,7 @@ const PointingEmoji = () => {
       </a>
       <a
         href="https://leetcode.com/u/lquincy01/"
-        className="text-sm md:text-lg lg:text-xl xl:text-3xl cursor-pointer"
+        className="   cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -36,7 +34,7 @@ const PointingEmoji = () => {
       </a>
       <a
         href="mailto:lqplsg@gmail.com"
-        className="text-sm md:text-lg lg:text-xl xl:text-3xl cursor-pointer"
+        className="   cursor-pointer"
         target="_blank"
         rel="noopener noreferrer"
       >
