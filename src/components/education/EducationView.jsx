@@ -11,7 +11,7 @@ export default function EducationView() {
         className="py-5 sm:py-10 mt-5 sm:mt-10 flex flex-col gap-4 "
       >
         <div className="text-center  ">
-          <p className=" flex flex-row items-center  justify-center  font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+          <p className=" gap-2  flex flex-row items-center  justify-center  font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
             My Education <HiOutlineAcademicCap />
           </p>
         </div>

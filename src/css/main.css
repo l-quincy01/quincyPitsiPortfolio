@@ -1035,6 +1035,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-semibold {
   font-weight: 600;
 }
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-fill {
+  object-fit: fill;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.h-9 {
+  height: 2.25rem /* 36px */;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1262,6 +1283,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
+
+  .sm\:mt-5 {
+    margin-top: 0.75rem /* 20px */;
+}
 
   .sm\:container {
     width: 100%;

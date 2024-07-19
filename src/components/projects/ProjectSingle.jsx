@@ -17,7 +17,7 @@ const ProjectSingle = ({ title, description, image }) => {
           <div>
             <img
               src={image}
-              className="rounded-t-xl border-none max-w-sm "
+              className="rounded-t-xl border-none aspect-square object-fill "
               alt="Single Project"
             />
           </div>
@@ -25,7 +25,7 @@ const ProjectSingle = ({ title, description, image }) => {
             <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
               {title}
             </p>
-            <span className="font-general-medium text-sm md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+            <span className="font-general  text-sm md:text-md text-ternary-dark dark:text-ternary-light mb-2">
               {description}
             </span>
           </div>
