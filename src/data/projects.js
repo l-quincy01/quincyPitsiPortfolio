@@ -1,5 +1,11 @@
 // Import images
 import StudyBuddyBanner from "../images/StudyBuddy.png";
+import Visualiser1 from "../images/vis1.png";
+// import Visualiser2 from "../images/vis2.png";
+// import Visualiser3 from "../images/vis3.png";
+// import Visualiser4 from "../images/vis4.png";
+// import Visualiser5 from "../images/vis5.png";
+// import Visualiser6 from "../images/vis6.png";
 
 export const projectsData = [
   {
@@ -22,6 +28,18 @@ export const projectsData = [
     img: "https://github.com/l-quincy01/Digs_Findr/raw/main/screenshots/1.png",
     ProjectHeader: {
       title: "Digs Findr",
+      publishDate: "Dec, 2023",
+      tags: "UI / Frontend",
+    },
+  },
+  {
+    id: 3,
+    title: "Visualiser",
+    description:
+      "Pathfinding Visualizer is a web application built with React that visualizes the Dijkstra algorithm, a popular pathfinding algorithm used to find the shortest path between nodes in a graph.",
+    img: Visualiser1,
+    ProjectHeader: {
+      title: "Visualiser",
       publishDate: "Dec, 2023",
       tags: "UI / Frontend",
     },

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import rhodesLogo from "../../images/rhodesUniversity.png";
+
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
@@ -32,11 +32,11 @@ export default function EducationView() {
                 Rhodes University
               </p>
 
-              <div className="text-left font-general-medium text-sm md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
+              <div className="w-full grow text-left font-general-medium text-sm md:text-xl text-ternary-dark dark:text-ternary-light mb-2">
                 <ul>
-                  <li className="font-semibold flex text-sm lg:text-md xl:text-lg">
+                  <li className=" font-semibold flex text-sm lg:text-md xl:text-lg">
                     BSc Computer Science and Information Systems{" "}
-                    <span className=" hidden md:hidden  ml-10 font-light xl:flex  items-center md:gap-x-2 md:items-center">
+                    <span className=" hidden md:flex  font-light ml-9 items-center md:gap-x-2">
                       <FaRegCalendarAlt /> 2021 - 2024
                     </span>
                   </li>
@@ -57,7 +57,7 @@ export default function EducationView() {
                 <ul>
                   <li className="font-semibold flex text-sm lg:text-md xl:text-lg">
                     BSc Information Systems Honours{" "}
-                    <span className=" hidden md:hidden  ml-10 font-light xl:flex  items-center md:gap-x-2 md:items-center">
+                    <span className=" hidden md:flex  ml-9  font-light xl:flex  items-center md:gap-x-2 md:items-center">
                       <FaRegCalendarAlt /> 2021 - 2024
                     </span>
                   </li>
