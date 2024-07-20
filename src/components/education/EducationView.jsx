@@ -26,7 +26,7 @@ export default function EducationView() {
             delay: 0.15,
           }}
         >
-          <div to="/projects/single-project" aria-label="Single Project">
+          <div aria-label="Single Project">
             <div className="  flex flex-col gap-2 text-center md:text-left items-center md:items-start px-8 py-8 rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
               <p className="font-general-medium text-lg md:text-xl text-ternary-dark dark:text-ternary-light  underline">
                 Rhodes University

@@ -26,7 +26,7 @@ export const projectsData = [
     link: "digsFindr",
     title: "Digs Findr",
     description:
-      "Digs Findr is a platform designed to facilitate student accommodation, assits students to find their best suited accommodation options near their universities and also helps landlords to get tenants. \n Digs Findr aims to simplify the process of finding accommodation for students, particularly those who are new to a city or university.",
+      "Digs Findr is a platform designed to facilitate student accommodation, assits students to find their best suited accommodation options near their universities and also helps landlords to get tenants. \n Digs Findr aims to simplify the process of finding accommodation for students.",
     img: "https://github.com/l-quincy01/Digs_Findr/raw/main/screenshots/1.png",
     ProjectHeader: {
       title: "Digs Findr",

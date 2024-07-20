@@ -27,7 +27,7 @@ export default function WritingsView() {
             delay: 0.15,
           }}
         >
-          <div to="/projects/single-project" aria-label="Single Project">
+          <div aria-label="Single Project">
             <div className="  flex flex-col gap-2 text-center md:text-left items-center  px-8 py-8 rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
               <div className="font-general-medium text-sm md:text-xl text-ternary-dark dark:text-ternary-light mb-2  ">
                 <a

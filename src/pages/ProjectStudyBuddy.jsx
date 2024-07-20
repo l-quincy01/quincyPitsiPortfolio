@@ -1,7 +1,7 @@
 import ProjectGallery from "../components/projects/ProjectGallery";
 import ProjectHeader from "../components/projects/ProjectHeader";
 import ProjectInfo from "../components/projects/ProjectInfo";
-import studentHubData from "../data/studentHubData";
+import studdyBuddyData from "../data/studyBuddyData";
 
 import { motion } from "framer-motion";
 
@@ -18,12 +18,12 @@ const ProjectStudyBuddy = () => {
       className="container mx-auto mt-5 sm:mt-10"
     >
       <ProjectHeader
-        title={studentHubData.ProjectHeader.title}
-        publishDate={studentHubData.ProjectHeader.publishDate}
-        tags={studentHubData.ProjectHeader.tags}
+        title={studdyBuddyData.ProjectHeader.title}
+        publishDate={studdyBuddyData.ProjectHeader.publishDate}
+        tags={studdyBuddyData.ProjectHeader.tags}
       />
-      <ProjectGallery ProjectImages={studentHubData.ProjectImages} />
-      <ProjectInfo ProjectInfo={studentHubData.ProjectInfo} />
+      <ProjectGallery ProjectImages={studdyBuddyData.ProjectImages} />
+      <ProjectInfo ProjectInfo={studdyBuddyData.ProjectInfo} />
     </motion.div>
   );
 };

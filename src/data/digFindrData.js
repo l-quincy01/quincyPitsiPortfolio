@@ -63,7 +63,7 @@ export const digsFindrData = {
     ],
     ObjectivesHeading: "Objective",
     ObjectivesDetails:
-      "Digs Findr is a platform designed to facilitate student accommodation, assists students in finding their best-suited accommodation options near their universities and also helps landlords to get tenants. Digs Findr aims to simplify the process of finding accommodation for students, particularly those who are new to a city or university.",
+      "Digs Findr is a platform designed to facilitate student accommodation, assists students in finding their best-suited accommodation options near their universities and also helps landlords to get tenants. Digs Findr aims to simplify the process of finding accommodation for students",
     Technologies: [
       {
         title: "Tools & Technologies",
