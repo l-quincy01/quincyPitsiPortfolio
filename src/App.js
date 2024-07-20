@@ -7,11 +7,17 @@ import AppHeader from "./components/shared/AppHeader";
 import "./css/App.css";
 import UseScrollToTop from "./hooks/useScrollToTop";
 
+// import ProjectDigsFindr from "./pages/ProjectDigsFindr.jsx";
+// import ProjectStudyBuddy from "./pages/ProjectStudyBuddy.jsx";
+// import ProjectStudentHub from "./pages/ProjectStudentHub.jsx";
+
 // const About = lazy(() => import("./pages/AboutMe"));
 // const Contact = lazy(() => import("./pages/Contact.jsx"));
 const Home = lazy(() => import("./pages/Home"));
 const Projects = lazy(() => import("./pages/Projects"));
-const ProjectSingle = lazy(() => import("./pages/ProjectSingle.jsx"));
+const ProjectDigsFindr = lazy(() => import("./pages/ProjectDigsFindr.jsx"));
+const ProjectStudyBuddy = lazy(() => import("./pages/ProjectStudyBuddy.jsx"));
+const ProjectStudentHub = lazy(() => import("./pages/ProjectStudentHub.jsx"));
 
 function App() {
   return (
@@ -24,9 +30,14 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="projects" element={<Projects />} />
+              <Route path="projects/digsFindr" element={<ProjectDigsFindr />} />
               <Route
-                path="projects/single-project"
-                element={<ProjectSingle />}
+                path="projects/studyBuddy"
+                element={<ProjectStudyBuddy />}
+              />
+              <Route
+                path="projects/studentHub"
+                element={<ProjectStudentHub />}
               />
             </Routes>
           </Suspense>

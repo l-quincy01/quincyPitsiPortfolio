@@ -1,11 +1,11 @@
 import ProjectGallery from "../components/projects/ProjectGallery";
 import ProjectHeader from "../components/projects/ProjectHeader";
 import ProjectInfo from "../components/projects/ProjectInfo";
+import digsFindrData from "../data/digFindrData";
 
-import { SingleProjectProvider } from "../context/SingleProjectContext";
 import { motion } from "framer-motion";
 
-const ProjectSingle = () => {
+const ProjectDigsFindr = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,13 +17,15 @@ const ProjectSingle = () => {
       }}
       className="container mx-auto mt-5 sm:mt-10"
     >
-      <SingleProjectProvider>
-        <ProjectHeader />
-        <ProjectGallery />
-        <ProjectInfo />
-      </SingleProjectProvider>
+      <ProjectHeader
+        title={digsFindrData.ProjectHeader.title}
+        publishDate={digsFindrData.ProjectHeader.publishDate}
+        tags={digsFindrData.ProjectHeader.tags}
+      />
+      <ProjectGallery ProjectImages={digsFindrData.ProjectImages} />
+      <ProjectInfo ProjectInfo={digsFindrData.ProjectInfo} />
     </motion.div>
   );
 };
 
-export default ProjectSingle;
+export default ProjectDigsFindr;

@@ -17,6 +17,7 @@ const ProjectsGrid = () => {
         {projects.map((project) => (
           <ProjectSingle
             title={project.title}
+            link={project.link}
             description={project.description}
             image={project.img}
             key={project.id}
