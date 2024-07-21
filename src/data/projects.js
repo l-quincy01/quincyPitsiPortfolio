@@ -1,6 +1,9 @@
 // Import images
+import DigsFindrImage from "../images/1Digs.png";
 import StudyBuddyBanner from "../images/StudyBuddy.png";
+import StudentHubImg from "../images//1StudentHub.png";
 import Visualiser1 from "../images/vis1.png";
+import SediSego from "../images/1Sedi.png";
 // import Visualiser2 from "../images/vis2.png";
 // import Visualiser3 from "../images/vis3.png";
 // import Visualiser4 from "../images/vis4.png";
@@ -27,7 +30,7 @@ export const projectsData = [
     title: "Digs Findr",
     description:
       "Digs Findr is a platform designed to facilitate student accommodation, assits students to find their best suited accommodation options near their universities and also helps landlords to get tenants. \n Digs Findr aims to simplify the process of finding accommodation for students.",
-    img: "https://github.com/l-quincy01/Digs_Findr/raw/main/screenshots/1.png",
+    img: DigsFindrImage,
     ProjectHeader: {
       title: "Digs Findr",
       publishDate: "Dec, 2023",
@@ -40,7 +43,7 @@ export const projectsData = [
     title: "Student Hub",
     description:
       "A community marketplace for college and university students to buy and sell second-hand goods, fostering a sustainable and affordable exchange of textbooks, furniture, electronics, and other essentials within the student community.",
-    img: "https://github.com/l-quincy01/Student-Hub-App/raw/main/Screenshots/LoginScreen.PNG",
+    img: StudentHubImg,
     ProjectHeader: {
       title: "Digs Findr",
       publishDate: "Dec, 2023",
@@ -49,6 +52,19 @@ export const projectsData = [
   },
   {
     id: 4,
+    link: "sedisego",
+    title: "SediSego",
+    description:
+      "Sedisego is an Interior Design company, directed by Sylvia Pitsi, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
+    img: SediSego,
+    ProjectHeader: {
+      title: "Visualiser",
+      publishDate: "Dec, 2023",
+      tags: "UI / Frontend",
+    },
+  },
+  {
+    id: 5,
     link: "visualiser",
     title: "Visualiser",
     description:
