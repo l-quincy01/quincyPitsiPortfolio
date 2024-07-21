@@ -113,19 +113,20 @@ const AppHeader = () => {
           >
             Projects
           </Link>
-          <Link
-            to="/about"
-            className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
-            aria-label="About Me"
-          >
-            About Me
-          </Link>
+
           <a
-            href="/contact"
+            href="/#education"
             className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
             aria-label="Contact"
           >
             Education
+          </a>
+          <a
+            href="/#writings"
+            className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+            aria-label="About Me"
+          >
+            Writings
           </a>
         </div>
 
@@ -139,14 +140,14 @@ const AppHeader = () => {
             Projects
           </Link>
           <a
-            href="#contact"
+            href="/#education"
             className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
             aria-label="Education"
           >
             Education
           </a>
           <a
-            href="#writings"
+            href="/#writings"
             className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
             aria-label="Writings"
           >

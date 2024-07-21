@@ -7,7 +7,7 @@ export default function EducationView() {
   return (
     <>
       <section
-        id="projects"
+        id="education"
         className="py-5 sm:py-10 mt-5 sm:mt-10 flex flex-col gap-4 "
       >
         <div className="text-center  ">
