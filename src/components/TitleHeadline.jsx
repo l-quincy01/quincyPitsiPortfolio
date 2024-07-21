@@ -1,5 +1,6 @@
 import TimelineComp from "./about/TimelineComp";
 import PointingEmoji from "./PointingEmoji";
+import Button from "./reusable/Button";
 
 const TitleHeadline = () => {
   return (
@@ -16,6 +17,7 @@ const TitleHeadline = () => {
       <div className=" text-md  md:text-xl ">
         <TimelineComp />
       </div>
+
       <div className=" text-lg md:text-xl   ">
         <PointingEmoji />
       </div>

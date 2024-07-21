@@ -23,7 +23,7 @@ const timelineData = [
     company: "Lyft Back-End Engineering Virtual Internship ",
     companyLink:
       "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Lyft/xSw9echtixLAoPdsH_Lyft_6fqRCFBX24CnhHPst_1719957820023_completion_certificate.pdf ",
-    contract: " ",
+    contract: "Full-time ",
     date: "2023 July - 2023 July",
   },
 
