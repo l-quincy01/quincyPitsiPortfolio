@@ -1,10 +1,11 @@
 // Import images
-import Image1 from "../images/StudyBuddy.png";
-import Image2 from "../images/StudyBuddy.png";
-import Image3 from "../images/StudyBuddy.png";
-import Image4 from "../images/StudyBuddy.png";
-import Image5 from "../images/StudyBuddy.png";
-import Image6 from "../images/StudyBuddy.png";
+import Image1 from "../images/1Digs.png";
+import Image2 from "../images/2Digs.png";
+import Image3 from "../images/3Digs.png";
+import Image4 from "../images/10Digs.png";
+import Image5 from "../images/11Digs.png";
+import Image6 from "../images/8Digs.png";
+
 // Import icons
 import {
   FiFacebook,
@@ -35,6 +36,21 @@ export const digsFindrData = {
       id: 3,
       title: "Digs Findr Property Details",
       img: Image3,
+    },
+    {
+      id: 4,
+      title: "Digs Findr Search Results",
+      img: Image4,
+    },
+    {
+      id: 5,
+      title: "Digs Findr Property Details",
+      img: Image5,
+    },
+    {
+      id: 6,
+      title: "Digs Findr Property Details",
+      img: Image6,
     },
   ],
   ProjectInfo: {

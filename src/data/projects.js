@@ -55,7 +55,7 @@ export const projectsData = [
     link: "sedisego",
     title: "SediSego",
     description:
-      "Sedisego is an Interior Design company, directed by Sylvia Pitsi, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
+      "Sedisego is an Interior Design company, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
     img: SediSego,
     ProjectHeader: {
       title: "Visualiser",

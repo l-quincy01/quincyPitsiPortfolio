@@ -4,6 +4,12 @@ import Image2 from "../images/2Sedi.png";
 import Image3 from "../images/3Sedi.png";
 import Image4 from "../images/4Sedi.png";
 import Image5 from "../images/5Sedi.png";
+import Image6 from "../images/6Sedi.png";
+// import Image7 from "../images/7Sedi.png";
+// import Image8 from "../images/8Sedi.png";
+// import Image9 from "../images/9Sedi.png";
+// import Image10 from "../images/10Sedi.png";
+// import Image11 from "../images/11Sedi.png";
 
 // Import icons
 import {
@@ -36,6 +42,41 @@ export const sedisegoEcommerceData = {
       title: "Sedisego Ecommerce - Checkout Page",
       img: Image3,
     },
+    {
+      id: 4,
+      title: "Sedisego Ecommerce - Home Page",
+      img: Image4,
+    },
+    {
+      id: 5,
+      title: "Sedisego Ecommerce - Product Page",
+      img: Image5,
+    },
+    {
+      id: 6,
+      title: "Sedisego Ecommerce - Product Page",
+      img: Image6,
+    },
+    // {
+    //   id: 3,
+    //   title: "Sedisego Ecommerce - Checkout Page",
+    //   img: Image3,
+    // },
+    // {
+    //   id: 1,
+    //   title: "Sedisego Ecommerce - Home Page",
+    //   img: Image1,
+    // },
+    // {
+    //   id: 2,
+    //   title: "Sedisego Ecommerce - Product Page",
+    //   img: Image2,
+    // },
+    // {
+    //   id: 3,
+    //   title: "Sedisego Ecommerce - Checkout Page",
+    //   img: Image3,
+    // },
   ],
   ProjectInfo: {
     ClientHeading: "More Info",
@@ -63,7 +104,7 @@ export const sedisegoEcommerceData = {
     ],
     ObjectivesHeading: "Objective",
     ObjectivesDetails:
-      "Sedisego is an Interior Design company, directed by Sylvia Pitsi, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
+      "Sedisego is an Interior Design company, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
     Technologies: [
       {
         title: "Tools & Technologies",

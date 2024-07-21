@@ -6,6 +6,7 @@ import AppFooter from "./components/shared/AppFooter";
 import AppHeader from "./components/shared/AppHeader";
 import "./css/App.css";
 import UseScrollToTop from "./hooks/useScrollToTop";
+//import ProjectVisualiser from "./pages/ProjectVisualiser.jsx";
 //import ProjectSedisego from "./pages/ProjectSedisego.jsx";
 // import ProjectDigsFindr from "./pages/ProjectDigsFindr.jsx";
 // import ProjectStudyBuddy from "./pages/ProjectStudyBuddy.jsx";
@@ -19,6 +20,7 @@ const ProjectDigsFindr = lazy(() => import("./pages/ProjectDigsFindr.jsx"));
 const ProjectStudyBuddy = lazy(() => import("./pages/ProjectStudyBuddy.jsx"));
 const ProjectStudentHub = lazy(() => import("./pages/ProjectStudentHub.jsx"));
 const ProjectSedisego = lazy(() => import("./pages/ProjectSedisego.jsx"));
+const ProjectVisualiser = lazy(() => import("./pages/ProjectVisualiser.jsx"));
 
 function App() {
   return (
@@ -41,6 +43,10 @@ function App() {
                 element={<ProjectStudentHub />}
               />
               <Route path="projects/sedisego" element={<ProjectSedisego />} />
+              <Route
+                path="projects/visualiser"
+                element={<ProjectVisualiser />}
+              />
             </Routes>
           </Suspense>
           <AppFooter />
