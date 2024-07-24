@@ -4,6 +4,7 @@
 // import developerDark from '../../images/developer-dark.svg';
 import { motion } from "framer-motion";
 import TitleHeadline from "../TitleHeadline";
+import profileImg from "../../images/lesegoProfile.jpg";
 
 const AppBanner = () => {
   // const [activeTheme] = useThemeSwitcher();
@@ -20,13 +21,13 @@ const AppBanner = () => {
       </div>
       <img
         className=" border-2 rounded-full  mb-10  md:hidden"
-        src={"https://lesego-pitsi.netlify.app/images/lesegoProfile.jpg"}
+        src={profileImg}
         alt="Developer"
       />
 
       <img
         className=" border-2 rounded-full  md:w-1/3 md:h-1/3 mb-10  hidden md:block"
-        src={"https://lesego-pitsi.netlify.app/images/lesegoProfile.jpg"}
+        src={profileImg}
         alt="Developer"
       />
 
