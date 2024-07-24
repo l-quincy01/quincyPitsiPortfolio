@@ -1,10 +1,7 @@
 // Import images
-import Image1 from "../images/StudyBuddy.png";
-import Image2 from "../images/StudyBuddy.png";
-import Image3 from "../images/StudyBuddy.png";
-import Image4 from "../images/StudyBuddy.png";
-import Image5 from "../images/StudyBuddy.png";
-import Image6 from "../images/StudyBuddy.png";
+
+import Image3 from "../images/studentHub2.png";
+
 // Import icons
 import {
   FiFacebook,
@@ -24,12 +21,7 @@ export const studentHubAppData = {
     {
       id: 1,
       title: "Student Hub - Home Screen",
-      img: Image1,
-    },
-    {
-      id: 2,
-      title: "Student Hub - Browse Listings",
-      img: Image2,
+      img: Image3,
     },
     {
       id: 3,
@@ -67,14 +59,7 @@ export const studentHubAppData = {
     Technologies: [
       {
         title: "Tools & Technologies",
-        techs: [
-          "React Native",
-          "Node.js",
-          "Express.js",
-          "MongoDB",
-          "Expo",
-          "Firebase",
-        ],
+        techs: ["React Native", "GOlang", "Firebase", "Clerk", "Expo"],
       },
     ],
     ProjectDetailsHeading: "Details",
@@ -126,31 +111,6 @@ export const studentHubAppData = {
         name: "YouTube",
         icon: <FiYoutube />,
         url: "https://youtube.com/studenthubapp",
-      },
-    ],
-  },
-  RelatedProject: {
-    title: "Related Projects",
-    Projects: [
-      {
-        id: 1,
-        title: "Campus Marketplace",
-        img: Image4,
-      },
-      {
-        id: 2,
-        title: "University Exchange",
-        img: Image5,
-      },
-      {
-        id: 3,
-        title: "Student Deals",
-        img: Image6,
-      },
-      {
-        id: 4,
-        title: "Textbook Trader",
-        img: Image3,
       },
     ],
   },

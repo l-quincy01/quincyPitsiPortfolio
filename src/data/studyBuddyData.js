@@ -1,7 +1,8 @@
 // Import images
 import Image1 from "../images/StudyBuddy.png";
-import Image2 from "../images/StudyBuddy.png";
-import Image3 from "../images/StudyBuddy.png";
+import Image2 from "../images/StudyBuddy_5.png";
+import Image3 from "../images/StuduyBuddy_2.png";
+
 import Image4 from "../images/StudyBuddy.png";
 import Image5 from "../images/StudyBuddy.png";
 import Image6 from "../images/StudyBuddy.png";
@@ -28,13 +29,8 @@ export const studyBuddyData = {
     },
     {
       id: 2,
-      title: "Study Buddy - Document Upload",
+      title: "Study Buddy - Home Screen",
       img: Image2,
-    },
-    {
-      id: 3,
-      title: "Study Buddy - Quiz Generation",
-      img: Image3,
     },
   ],
   ProjectInfo: {

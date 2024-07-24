@@ -1,14 +1,9 @@
 // Import images
 import DigsFindrImage from "../images/1Digs.png";
 import StudyBuddyBanner from "../images/StudyBuddy.png";
-import StudentHubImg from "../images//1StudentHub.png";
+import StudentHubImg from "../images/studentHub2.png";
 import Visualiser1 from "../images/vis1.png";
 import SediSego from "../images/1Sedi.png";
-// import Visualiser2 from "../images/vis2.png";
-// import Visualiser3 from "../images/vis3.png";
-// import Visualiser4 from "../images/vis4.png";
-// import Visualiser5 from "../images/vis5.png";
-// import Visualiser6 from "../images/vis6.png";
 
 export const projectsData = [
   {
@@ -53,7 +48,7 @@ export const projectsData = [
   {
     id: 4,
     link: "sedisego",
-    title: "SediSego",
+    title: "Sedisego",
     description:
       "Sedisego is an Interior Design company, that excels in crafting luxury and meticulously curated design. Our approach focuses on simplicity, soft hues, natural materials, and ultimate comfort, aiming to transform spaces into havens of tranquility and style.",
     img: SediSego,

@@ -111,10 +111,10 @@ export const sedisegoEcommerceData = {
         techs: [
           "React.js",
           "Node.js",
-          "Express.js",
-          "MongoDB",
-          "TailwindCSS",
+          "Firebase",
+          "Clerk",
           "Stripe API",
+          "TailwindCSS",
         ],
       },
     ],

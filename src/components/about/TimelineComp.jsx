@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDotCircle } from "react-icons/fa";
+
 import { GoDotFill } from "react-icons/go";
 
 const timelineData = [

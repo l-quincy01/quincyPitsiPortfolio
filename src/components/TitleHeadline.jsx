@@ -1,6 +1,5 @@
 import TimelineComp from "./about/TimelineComp";
 import PointingEmoji from "./PointingEmoji";
-import Button from "./reusable/Button";
 
 const TitleHeadline = () => {
   return (
